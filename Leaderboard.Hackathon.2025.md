@@ -1,30 +1,36 @@
 # Leaderboard for GIDS Biomedical Data Hackathon 2025
 
--   **time stamp:** “20 August, 2025 15:00:20”
+-   **time stamp:** “21 August, 2025 15:00:21”
 
 | pseudonym              |    RMSD |
 |:-----------------------|--------:|
-| The Mighty-condrion    | 0.14401 |
-| NoahStefancik          | 0.15076 |
-| LNCLLM                 | 0.16827 |
-| Transcriptonaughts     | 0.17080 |
+| NoahStefancik          | 0.14276 |
+| The Bros               | 0.14832 |
+| cosmo                  | 0.14871 |
+| Euchromatin            | 0.15222 |
+| Kill Bill              | 0.15992 |
+| 60hahsm                | 0.16570 |
+| Alpha Groundhog        | 0.16825 |
+| LNCLLM                 | 0.16995 |
 | Regression Renaissance | 0.17627 |
-| MM                     | 0.18628 |
-| RNAnalytics            | 0.19296 |
-| KgP                    | 0.30024 |
-| Euchromatin            | 0.31368 |
+| EEG                    | 0.18079 |
+| ms ds duo              | 0.18295 |
+| UMAP my heart          | 0.18764 |
+| The Mighty-condrion    | 0.18912 |
+| Transcriptonaughts     | 0.19185 |
+| RNAnalytics            | 0.19231 |
+| BOMN                   | 0.21411 |
+| Flageolets             | 0.21582 |
 | Caiman                 | 0.31368 |
 | The real science       | 0.36163 |
+| joshpredicts           | 0.83926 |
+| fish                   | 1.51101 |
 | FLY                    | 2.39148 |
 | YEAST                  | 2.39148 |
 | DnDCrew                | 2.39148 |
-| ms ds duo              | 2.39148 |
-| cosmo                  | 2.39148 |
 | CookieMonster          | 2.39148 |
-| Flageolets             | 2.39148 |
 | Name Undefined         | 2.39148 |
 | Pomodoro               | 2.39148 |
-| HuaweiPower            | 2.39148 |
 | AMA                    | 2.39148 |
 | acid                   | 2.39148 |
 | Nyarlathotep           | 2.39148 |
@@ -50,29 +56,24 @@ Please read instructions carefully.*
 
 | pseudonym       |
 |:----------------|
-| UMAP my heart   |
 | JCBWTBK         |
 | SCSH            |
-| BOMN            |
 | MGJLTA          |
 | confused_coder  |
 | Recursion       |
 | Peanutbutterman |
+| MM               |
 | m               |
 | Al Ahly 07      |
 | monkey2         |
 | ES              |
-| Alpha Groundhog |
-| 60hahsm         |
-| EEG             |
-| The Bros        |
+| HuaweiPower     |
 | Wash Wizards    |
-| Kill Bill       |
+| loopie          |
 | Tit for tat     |
-| joshpredicts    |
-| fish            |
 | Rotationmatrix  |
 | Spencer         |
 | anonymous5.5    |
+| KgP             |
 | Tomato          |
 | WorkInProgress  |
