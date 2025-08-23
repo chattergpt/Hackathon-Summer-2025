@@ -1,41 +1,40 @@
-# Leaderboard for GIDS Biomedical Data Hackathon 2025
+# Final Leaderboard for GIDS Biomedical Data Hackathon 2025
 
--   **time stamp:** “22 August, 2025 15:36:17”
+-   **time stamp:** “23 August, 2025 15:00:35”
 
 | pseudonym              |    RMSD |
 |:-----------------------|--------:|
+| Transcriptonaughts     | 0.14234 |
 | NoahStefancik          | 0.14255 |
-| UMAP my heart          | 0.14320 |
 | The Mighty-condrion    | 0.14401 |
+| CookieMonster          | 0.14463 |
 | The Bros               | 0.14484 |
-| Transcriptonaughts     | 0.14676 |
-| MM                     | 0.15059 |
-| Euchromatin            | 0.15099 |
-| LNCLLM                 | 0.15369 |
-| EEG                    | 0.15569 |
-| Nyarlathotep           | 0.15672 |
-| cosmo                  | 0.16524 |
+| cosmo                  | 0.14871 |
+| Euchromatin            | 0.15087 |
+| UMAP my heart          | 0.15340 |
+| Kill Bill              | 0.15485 |
+| Nyarlathotep           | 0.15709 |
+| Alpha Groundhog        | 0.16326 |
 | 60hahsm                | 0.16570 |
-| Kill Bill              | 0.16959 |
-| Caiman                 | 0.17644 |
+| Regression Renaissance | 0.17804 |
+| ms ds duo              | 0.18295 |
+| acid                   | 0.18432 |
+| Caiman                 | 0.18454 |
 | RNAnalytics            | 0.18597 |
 | Flageolets             | 0.19270 |
-| Alpha Groundhog        | 0.19881 |
-| ms ds duo              | 0.21560 |
-| Regression Renaissance | 0.25275 |
+| Pomodoro               | 0.20643 |
+| AMA                    | 0.21488 |
+| MM                     | 0.21696 |
 | BOMN                   | 0.25671 |
+| HuaweiPower            | 0.29998 |
 | KgP                    | 0.30651 |
-| acid                   | 0.31368 |
-| AMA                    | 0.32384 |
 | The real science       | 0.36163 |
+| LNCLLM                 | 0.51743 |
 | joshpredicts           | 1.36622 |
-| HuaweiPower            | 1.44055 |
 | fish                   | 1.51101 |
 | FLY                    | 2.39148 |
 | YEAST                  | 2.39148 |
-| CookieMonster          | 2.39148 |
 | Name Undefined         | 2.39148 |
-| Pomodoro               | 2.39148 |
 
 ***Scoring:***
 
@@ -68,6 +67,7 @@ Please read instructions carefully.*
 | Al Ahly 07      |
 | monkey2         |
 | ES              |
+| EEG             |
 | Wash Wizards    |
 | loopie          |
 | Tit for tat     |
