@@ -49,10 +49,12 @@ division, else they will be in the open division.
  * 1st place Undergraduate division- Transcriptonaughts
  * 2nd place Undergraduate division- NoahStefancik
  
+ 
  * 1st place Open division - CookieMonster
  * 2nd place Open division- cosmo
 
 If your team's final RMSD was <2.3, you will receive a prize! 
+* All teams eligible for **cash** prizes must submit their code to the organizers to claim their prize. See e-mail for details.
 * All individuals who participated in the following teams will receive a prize for your score: Transcriptonaughts, NoahStefancik, The Mighty-condrion, CookieMonster, The Bros, cosmo, Euchromatin, UMAP my heart, Kill Bill, Nyarlathotep, Alpha Groundhog, 60hahsm, Regression Renaissance, ms ds	duo,acid,Caiman,RNAnalytics,Flageolets,Pomodoro, AMA, MM, BOMN, HuaweiPower, KgP, The real science, LNCLLM, joshpredicts, and fish.
 
 In order to claim your prize, you will need to fill out a [post-competition survey](https://forms.gle/9gJPtp2dZQgdgSFg9) and [prize information form](https://forms.gle/dKJUQkzPdCAkt9ZBA).
@@ -62,4 +64,10 @@ In order to claim your prize, you will need to fill out a [post-competition surv
 1.  First place in each division: $300 + $75 x (team size)
 2.  Second place in each division: 0 + $50 x (team size)
   
+# Feedback and post-event information
+Thank you for participating in this competition! We hope that you enjoyed the event. Please give us feedback so that we can improve future events. All teams that submit predictions may receive a participation certificate. Please e-mail alarracu at bio.rochester.edu for your certificate.
 
+**Fill out the post-competition [survey](https://forms.gle/9gJPtp2dZQgdgSFg9).** 
+* You must be registered for the event in order to claim a prize.  
+* If your team submitted predictions and you would like to receive a certificate of participation, please e-mail alarracu@bio.rochester.edu. 
+* The winning teams are invited to present their approach to the hackathon in an upcoming meeting of the GIDS working group in life and biomedical data science. You are all invited. The meeting is scheduled for Fri 9/12/25 12:00 PM - 1:00 PM in Wegmans 1400.
