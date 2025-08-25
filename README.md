@@ -1,8 +1,8 @@
 # University of Rochester Biomedical Data Science Hackathon Summer 2025
-Welcome to the landing page for the hackathon. The event will run from 8/19/25 through 8/23/2025 online. If you missed the hybrid kickoff event on Monday 8/18, check your e-mail for the link to the recording.   
+Welcome to the landing page for the hackathon. The competition is now over, final scores are posted [here](Leaderboard.Hackathon.2025.md), and winners are announced below.   
 
  Please make sure each individual competing on your team is fully registered. Each team needs a captain with a github handle. To receive a prize, you must supply your University of Rochester e-mail address. All teams scoring better than random will receive a participation prize. 1st and 2nd place winning teams in each division will get a cash prize (see below).
- **All team members must submit their own registration form to receive prizes.** To finish your team registration or to register for an existing team, use this [google form](https://docs.google.com/forms/d/e/1FAIpQLScDODn2UyefKIDaCjTlYF29xjRNgk2aJ98NtVksoDU1kFL44w/viewform?usp=sharing&ouid=101864452815264823434). 
+ **All team members must submit their own registration form to receive prizes.**  Please use this form to claim your participation or cash prize. 
 
 
 # Logistics
@@ -42,9 +42,32 @@ division, else they will be in the open division.
 
 **Find a complete description of the dataset [here](Data.Description.md) and the data [here](/data).**
 
+# Winners!
+   
+**Congratulations to the winning teams:**
+   
+ * 1st place Undergraduate division- Transcriptonaughts
+ * 2nd place Undergraduate division- NoahStefancik
+ 
+ 
+ * 1st place Open division - CookieMonster
+ * 2nd place Open division- cosmo
+
+If your team's final RMSD was <2.3, you will receive a prize! 
+* All teams eligible for **cash** prizes must submit their code to the organizers to claim their prize. See e-mail for details.
+* All individuals who participated in the following teams will receive a prize for your score: Transcriptonaughts, NoahStefancik, The Mighty-condrion, CookieMonster, The Bros, cosmo, Euchromatin, UMAP my heart, Kill Bill, Nyarlathotep, Alpha Groundhog, 60hahsm, Regression Renaissance, ms ds	duo,acid,Caiman,RNAnalytics,Flageolets,Pomodoro, AMA, MM, BOMN, HuaweiPower, KgP, The real science, LNCLLM, joshpredicts, and fish.
+
+In order to claim your prize, you will need to fill out a [post-competition survey](https://forms.gle/9gJPtp2dZQgdgSFg9) and [prize information form](https://forms.gle/dKJUQkzPdCAkt9ZBA).
+
 # Prizes
    
 1.  First place in each division: $300 + $75 x (team size)
 2.  Second place in each division: 0 + $50 x (team size)
   
+# Feedback and post-event information
+Thank you for participating in this competition! We hope that you enjoyed the event. Please give us feedback so that we can improve future events. All teams that submit predictions may receive a participation certificate. Please e-mail alarracu at bio.rochester.edu for your certificate.
 
+**Fill out the post-competition [survey](https://forms.gle/9gJPtp2dZQgdgSFg9).** 
+* You must be registered for the event in order to claim a prize.  
+* If your team submitted predictions and you would like to receive a certificate of participation, please e-mail alarracu@bio.rochester.edu. 
+* The winning teams are invited to present their approach to the hackathon in an upcoming meeting of the GIDS working group in life and biomedical data science. You are all invited. The meeting is scheduled for Fri 9/12/25 12:00 PM - 1:00 PM in Wegmans 1400.
