@@ -4,12 +4,14 @@ from tqdm import tqdm
 import lightgbm as lgb
 from lightgbm import LGBMRegressor
 
+# Retrieve expression profile for a single gene
 def single_profile(expr_collapsed: pd.DataFrame, gene: str):
     for k in (f"{gene}+ctrl", f"ctrl+{gene}"):
         if k in expr_collapsed.columns:
             return expr_collapsed[k].values
     return None
 
+# Load training and test data, collapse replicates, and compute baseline profile
 def load_and_prepare():
     train_data = pd.read_csv("train_set.csv")
     test_data = pd.read_csv("test_set.csv", header=None, names=["perturbation"])
@@ -19,6 +21,7 @@ def load_and_prepare():
     genes = train_data["Unnamed: 0"].astype(str).tolist()
     expr = train_data.drop(columns=["Unnamed: 0"]).copy()
 
+    # Collapse replicate columns (e.g., A+B.1, A+B.2 → A+B)
     expr.columns = [c.split(".")[0] for c in expr.columns]
     expr_collapsed = expr.groupby(level=0, axis=1).mean()
 
@@ -52,6 +55,7 @@ def build_training(expr_collapsed: pd.DataFrame, genes: list[str]):
             skipped_genes.update([g1, g2])
             continue
 
+        # Feature engineering from single perturbation profiles
         feats = np.concatenate([profile1, profile2, profile1 * profile2, np.abs(profile1 - profile2), 0.5 * (profile1 + profile2)])
         X_rows.append(feats)
         Y_rows.append(expr_collapsed[col].values)
@@ -70,6 +74,7 @@ def build_training(expr_collapsed: pd.DataFrame, genes: list[str]):
 
     return X_df, Y, features, skipped_genes
 
+# Train LightGBM models (one per target gene)
 def fit_models(X_df: pd.DataFrame, Y: np.ndarray, n_targets: int):
     models = []
     for i in tqdm(range(n_targets), desc="Model Training"):
@@ -79,6 +84,7 @@ def fit_models(X_df: pd.DataFrame, Y: np.ndarray, n_targets: int):
         models.append(reg)
     return models
 
+# Predict expression profiles for the test set
 def predict_test(models, genes, expr_collapsed, test_df, baseline, features):
     print("Predicting test set...")
     records = []
@@ -90,6 +96,7 @@ def predict_test(models, genes, expr_collapsed, test_df, baseline, features):
         profile1 = single_profile(expr_collapsed, g1)
         profile2 = single_profile(expr_collapsed, g2)
 
+        # Use baseline if no single profile found
         if profile1 is None:
             used_baseline.add(g1)
             profile1 = baseline
@@ -97,12 +104,14 @@ def predict_test(models, genes, expr_collapsed, test_df, baseline, features):
             used_baseline.add(g2)
             v2 = baseline
 
+        # Recompute features for test pair
         x = np.concatenate([profile1, profile2, profile1 * profile2, np.abs(profile1 - profile2), 0.5 * (profile1 + profile2)]).reshape(1, -1)
         x_df = pd.DataFrame(x, columns=features)
 
         preds = [m.predict(x_df)[0] for m in models]
         records.extend((g, pert, float(p)) for g, p in zip(genes, preds))
 
+    # Get predictions from each gene-specific model
     out_df = pd.DataFrame(records, columns=["gene", "perturbation", "expression"])
     return out_df, used_baseline
 
